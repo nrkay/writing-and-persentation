@@ -75,5 +75,14 @@ contoh penggunaan :
 ![internaljs](./photos/8.jpg)
 - **eksternal**, yaitu membuat file JavaScript sendiri dan menyambungkannya dengan file HTML.Cara menyambungkannya sama seperti internal JavaScript, yaitu menggunakan tag script di dalam element body, hanya saja, kita menambahkan attribute src di dalam script untuk menyambungkan dengan file eksternal JavaScript kita.
 
+ada 7 tipe data Javascript, yaitu :
+- **string**, deretan karakter yang diapit oleh sepasang tanda kutip;
+- **number**, bilangan bulat, pecahan, dan lain-lain;
+- **boolean**, nilai benar dari sebuah pernyataan yang dituliskan sebagai true atau false;
+- **null**, sebuah nilai yang berarti kosong atau menunjuk pada nilai yang tidak ada;
+- **undefined**, berbeda dari null, undefined menandakan kondisi variabel yang belum diberi sebuah nilai. Jadi pernyataan "nilai variabel itu adalah undefined" sebenarnya kurang tepat, sebab variabelnya memang tidak mempunyai sebuah nilai;
+- **symbol**, sebuah nilai unik yang dihasilkan tiap kali kita memanggil fungsi Symbol(). Nilai unik ini memiliki beberapa kegunaan seperti memberi nomor identifikasi unik dan berperan sebagai nama properti unik sebuah objek;
+- **object**, sebuah kumpulan pasangan properti dan nilai. Seperti objek dalam kehidupan sehari-hari saja. Misalnya objek Apel memiliki properti warna dengan nilai merah.
+
 
 
