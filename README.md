@@ -84,5 +84,52 @@ ada 7 tipe data Javascript, yaitu :
 - **symbol**, sebuah nilai unik yang dihasilkan tiap kali kita memanggil fungsi Symbol(). Nilai unik ini memiliki beberapa kegunaan seperti memberi nomor identifikasi unik dan berperan sebagai nama properti unik sebuah objek;
 - **object**, sebuah kumpulan pasangan properti dan nilai. Seperti objek dalam kehidupan sehari-hari saja. Misalnya objek Apel memiliki properti warna dengan nilai merah.
 
+Beberapa operator pada JavaScript, yaitu:
+- Aritmetic Operators
+
+![aritmatic](./photos/9.jpg)
+
+
+- Assignment Operators
+
+![Assignment](./photos/10.jpg)
+
+
+- Comparison Operators
+
+![Comparison](./photos/11.jpg)
+
+
+- Logical Operators
+
+![Logical](./photos/12.jpg) 
+
+Conditional dan Looping pada JavaScript
+Pada JavaScript ada dua cara menuliskan conditional, yaitu:
+- menggunakan if, else if, dan else
+
+![ifelse](./photos/14.jpg) 
+
+- menggunakan switch dan case
+
+![switchcase](./photos/15.jpg) 
+
+
+ Perbedaan penggunaan if else dan switch, case yaitu melihat banyaknya kondisi yang dimiliki.
+ Jika hanya memiliki 3 kondisi akan lebih baik menggunakan if else, jika memiliki lebih dari 3 kondisi lebih baik menggunakan switch dan case untuk lebih praktis.
+
+ Loop dalam Bahasa Indonesia artinya putaran. Dalam JavaScript, maksudnya adalah perulangan. Jadi, loop adalah sekumpulan kode yang akan dijalankan berulang kali sampai batas yang ditentukan.
+ Ada 5 jenis loop dalam JavaScript:
+ - for
+ - for..in
+ - for..of
+ - for...of
+ - while
+ - do..while
+
+
+
+
+
 
 
