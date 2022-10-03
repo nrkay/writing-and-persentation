@@ -81,3 +81,64 @@ Jika kita menggunakan **console.log**, value yang akan dipanggil akan ditampilka
 
 ## D. DOM
 DOM merupakan singkatan dari **Document Object Model.**
+
+**Cara emndapatkan element HTML**
+1. Mendapatkan dengan ID
+```
+var title = document.getElementById(‘header-title’);
+```
+2. Mendapatkan dengan nama Class
+```
+var items = document.getElementsByClassName(‘list-items’);
+```
+3. Mendapatkan dengan tag 
+```
+var listItems = document.getElementsByTagName(‘li’);
+```
+
+**Cara Mengubah Elemen HTML**
+1. Mengubah HTML
+```
+document.getElementById(“#header”).innerHTML = “Hello World!”;
+```
+2. Mengubah Atribut
+```
+document.getElementsByTag(“img”).src = “test.jpg”;
+```
+3. Mengubah Style
+```
+document.getElementById(id).style.property = new style
+```
+
+**Menambah dan Menghapus Element**
+1. Menambah Elemen
+```
+var div = document.createElement(‘div’);
+```
+2. Menghapus Elemen
+```
+var elem = document.querySelector('#header');
+elem.parentNode.removeChild(elem);
+```
+3. Mengganti Elemen
+```
+var div = document.querySelector('#div');
+var newDiv = document.createElement(‘div’);
+newDiv.innerHTML = "Hello World2"
+div.parentNode.replaceChild(newDiv, div);
+```
+
+**Event Handlers**
+1. Assign Events
+```
+<h1 onclick=”this.innerHTML = ‘Hello!’”>Click me!</h1>
+```
+2. Assign Events Listeners
+```
+<h1 onclick=”changeText(this)”>Click me!</h1>
+```
+
+
+
+
+
